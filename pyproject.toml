@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "thinking-orbs-pyside6"
+version = "0.1.0"
+description = "Dotted, monochrome 3D thinking-orb loading indicators for PySide6 / Qt — a faithful port of thinking-orbs"
+readme = "README.md"
+license = { file = "LICENSE" }
+authors = [{ name = "Lucas Bonsel" }]
+requires-python = ">=3.9"
+dependencies = ["PySide6>=6.2"]
+keywords = ["pyside6", "qt", "loading-indicator", "spinner", "animation", "ai", "thinking", "widget"]
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Environment :: X11 Applications :: Qt",
+    "Topic :: Software Development :: User Interfaces",
+]
+
+[project.urls]
+Homepage = "https://github.com/gen-x-coder/thinking-orbs-pyside6"
+Original = "https://github.com/Jakubantalik/thinking-orbs"
+
+[tool.setuptools]
+py-modules = ["thinking_orbs"]
